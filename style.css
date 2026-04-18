@@ -1,9 +1,17 @@
-#p1 {
-    color: red;
-    text-align: center;
+div {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 body {
     background-color: #333131;
     color: wheat
 }
+
+#p1 {
+    color: red;
+    text-align: center;
+}
+
