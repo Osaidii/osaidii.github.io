@@ -1,17 +1,35 @@
-div {
-    margin-top: 20vh;
-    margin-bottom: 20vh;
-    margin-left: 20vw;
-    margin-right: 20vw;
-}
 
 body {
-    background-color: #333131;
-    color: wheat
+    background-color: #1a1a1a;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
-#p1 {
-    color: red;
-    text-align: center;
+#text {
+    color: rgb(243, 229, 229);
+    height: 600px;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 4px;
+    letter-spacing: 0.5px;
+    text-justify: inter-word;
+    line-height: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
 }
 
+#hi {
+    font-size: 35px;
+}
+
+#intro {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#tech_stack {
+    font-size: 20px;
+}
