@@ -4,10 +4,32 @@
     <title>Devlogs | Osaid Hassan</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="images/home icon.png">
+    <style>
+        .anim {
+            opacity: 0;
+            filter: blur(15px);
+            transform: translateY(30px);
+            animation: reveal 1s ease forwards;
+        }
+        @keyframes reveal {
+            0% {
+                opacity: 0;
+                filter:blur(15px);
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                filter: blur(0);
+                transform: translateY(0);
+            }
+        }
+        #header {animation-delay: 0.3s;}
+        #devlog_text {animation-delay: 0.2s;}
+    </style>
 </head>
 <body>
     <div id="text"> 
-        <p id="header">
+        <p id="header" class="anim">
             <span id="name">
                 <a href="home.html"> osaid hassan</a>
             </span>
@@ -15,7 +37,7 @@
                 <a href="home.html"> back</a>
             </span>
         </p>
-        <p id="devlog_text">nothing here for now or is there? i mean really, is there?</p>
+        <p id="devlog_text" class="anim">nothing here for now or is there? i mean really, is there?</p>
     </div>
 </body>
 </html>
