@@ -4,11 +4,39 @@
     <title>Home | Osaid Hassan</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="images/home icon.png">
+    <style>
+        .anim {
+            opacity: 0;
+            filter: blur(15px);
+            transform: translateY(30px);
+            animation: reveal 1s ease forwards;
+        }
+        @keyframes reveal {
+            0% {
+                opacity: 0;
+                filter:blur(15px);
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                filter: blur(0);
+                transform: translateY(0);
+            }
+        }
+        #header {animation-delay: 0.3s;}
+        #hi {animation-delay: 0.2s;}
+        #intro {animation-delay: 0.3s;}
+        #tech_stack {animation-delay: 0.4s;}
+        #tech_text {animation-delay: 0.5s;}
+        #goals {animation-delay: 0.6s;}
+        #goals_text {animation-delay: 0.7s;}
+        #footer {animation-delay: 0.8s;}
+    </style>
 </head>
 
 <body>
     <div id="text"> 
-        <p id="header">
+        <p id="header" class="anim">
             <span id="name">
                 <a href="home.html"> osaid hassan</a>
             </span>
@@ -16,11 +44,13 @@
                 <a href="devlogs.html"> devlogs</a>
             </span>
         </p>
-        <h1 id="hi">Hello👋</h1>
-        <p id="intro">i'm osaid, nsectetur adipiscing elit. Suspendisse id leo sapien. Aenean efficitur lorem justo.</p>
-        <h1 id="work_stack">what i do?</h1> 
-        <p id="work_text">I am a honcus at. Etiam pellentesque nulla sagittis maximus aliquam. Fusce vel sem odio. Sed vel mi ante. Aliquam ut mattis felis. Proin dolor felis, viverra et commodo at, fermentum sed ante. Duis varius eros id egestas posuere. Phasellus sed semper ante. Sed ipsum neque, porttitor vitae quam nec, rutrum suscipit elit. Donec malesuada cursus ante in bibendum.</p>
-        <p id="footer">
+        <h1 id="hi" class="anim">Hello👋</h1>
+        <p id="intro" class="anim">I'm osaid, a 15 year old guy from pakistan but I live in sweden. I like technology.</p>
+        <h1 id="tech_stack" class="anim">tech stack</h1> 
+        <p id="tech_text" class="anim">I am a game developer and a learning web developer. I have experience in godot, python and git, and I am learning HTML, CSS, and JavaScript.</p>
+        <h1 id="goals" class="anim">my goals</h1> 
+        <p id="goals_text" class="anim">i am a game developer and a learning web developer. this is just placeholder text and not the final text, this will be changed. nulla sagittis maximus aliquam. Fusce vel sem odio. Sed vel mi ante. Aliquam ut mattis felis. Proin dolor felis, viverra et commodo at, fermentum sed ante. Duis varius eros id egestas posuere. Phasellus sed semper ante. Sed ipsum neque, porttitor vitae quam nec, rutrum suscipit elit. Donec malesuada cursus ante in bibendum.</p>
+        <p id="footer" class="anim">
             <span id="projects">
                 <a href="projects.html"> projects</a>
             </span>

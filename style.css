@@ -13,7 +13,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     word-spacing: 3px;
     letter-spacing: 0.5px;
-    text-justify: inter-word;
+    text-align: justify;
     line-height: 25px;
     margin-top: 3vh;
 }
@@ -27,7 +27,7 @@ body {
 #footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 7vh;
 }
 
 /* HOME */
@@ -45,7 +45,6 @@ body {
     margin-bottom: 10vh;
     word-spacing: 0px;
     color: #c7c7c7;
-    align-items: left;
 }
 
 #projects {
@@ -56,13 +55,12 @@ body {
     color: #c7c7c7;
 }
 
-#contact {
+#socials {
     font-size: 15px;
     letter-spacing: 0px;
     margin-bottom: 10vh;
     word-spacing: 0px;
     color: #c7c7c7;
-    align-items: left;
 }
 
 #hi {
@@ -75,36 +73,47 @@ body {
     line-height: 30px;
 }
 
-#work_stack {
+#tech_stack {
     font-size: 25px;
 }
 
-#work_text {
+#tech_text {
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+#goals {
+    font-size: 25px;
+}
+
+#goals_text {
     margin-bottom: 50px;
     line-height: 30px;
 }
 
 /* LINKS */
 a {
-    color: #c7c7c7;
+    color: rgb(187, 183, 183);
+    text-decoration: none; 
 }
 
 a:visited {
-    color: #c7c7c7;
+    color: rgb(187, 183, 183);
+    text-decoration: none; 
 }
 
 a:hover {
-    color: rgb(190, 174, 174);
+    color: #dddddd;
+    text-decoration: none; 
 }
 
 a:active {
-    color: rgb(190, 174, 174);
+    color: #dddddd;
+    text-decoration: none; 
 }
 
 /* DEVLOGS */
 #devlogs_text {
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -114,5 +123,4 @@ a:active {
     margin-bottom: 10vh;
     word-spacing: 0px;
     color: #c7c7c7;
-    justify-content: center;
 }
