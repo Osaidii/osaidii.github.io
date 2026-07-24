@@ -1,4 +1,4 @@
-# osaidii.github.io
+# osaidii.com // osaidii.github.io
 This is my first web project.  
 This webisite is open source and anyone can use, copy and modify this code with or without credit, though it is appreciated!  
 Tutorials and docs were also used in the development of this website.  
