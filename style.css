@@ -4,7 +4,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 3vh
+    margin-top: 2vh
+    overflow: hidden;
 }
 
 #text {
