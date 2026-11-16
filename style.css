@@ -1,9 +1,9 @@
+/* GLOBAL */
 body {
     background-color: #1b1b1b;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    overflow: hidden;
 }
 
 #text {
@@ -22,7 +22,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1vh;
 }
 
 #footer {
